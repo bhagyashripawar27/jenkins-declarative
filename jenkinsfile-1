@@ -11,7 +11,7 @@ pipeline
         {steps{'code is building'}}
         stage('code deploying')
         {
-            steps{ echo'code is deploying}
+            steps{ echo'code is deploying'}
         }
     }
 }
