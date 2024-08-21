@@ -8,7 +8,9 @@ pipeline
             steps{echo "code is downloading"}
         }
         stage('code build')
-        {steps{'code is building'}}
+        {
+steps{echo'code is building'}
+}
         stage('code deploying')
         {
             steps{ echo'code is deploying'}
